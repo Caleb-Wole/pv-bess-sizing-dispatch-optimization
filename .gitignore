@@ -1,0 +1,24 @@
+# MATLAB autosave and backup files
+*.asv
+*.m~
+*.bak
+
+# MATLAB figure and workspace temporary exports (keep small data, ignore massive dumps)
+*.mat
+
+# MATLAB crash and log files
+matlab_crash_dump*
+*.dmr
+
+# Simulink cache / code generation (if applicable)
+slprj/
+*.slxc
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git tracking
+.vscode/
+.idea/
