@@ -59,7 +59,7 @@ $$\text{Variables} = 4 + 4N + N + 12 + 1 + 1 = 5(8760) + 18 = \mathbf{43,818}$$
 ### 1. Baseline Optimal Dispatch (Task 3)
 * **Optimal Sizing:** $S^{\text{PV}} = 72.4\text{ kWp}$, $S^{\text{batt}} = 12.1\text{ kWh}$
 
-![3-Day Operational Profile](figures/task3_operational_profile.png)
+![3-Day Operational Profile](figures/task3_operational_profiles.png)
 
 * **Operational Dynamics:** The battery charges during midday solar peaks and discharges during early morning and late evening demand windows. During maximum solar production, the system actively exports up to 43 kW back to the utility grid, generating feed-in revenue while maintaining zero net export across the full year.
 
